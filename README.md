@@ -1,10 +1,12 @@
 # Calculator
+---- Program Description ----<br />
 Calculator.java multiplies and divides.<br />
 CalculatorTest.java tests Calculator's methods using JUnit.<br />
 
-To compile and run, _cd_ to _/Calculator_ and type **_ant -f build.xml_** on a shell.<br />
+---- Compile & Run ----<br />
+**_cd_** to **_/Calculator_** and type **_ant -f build.xml_**.<br />
 
-Prerequisite steps:
+---- Prerequisite Steps & Environment Setup ----<br />
 * Install Ant from http://ant.apache.org/.
 * Configure your _ANT_HOME_ environment variable to reference the topmost directory of the Ant distribution.
 * Configure your _PATH_ environment variable to reference _ANT_HOME_ in a relative manner, by including _PATH=%ANT_HOME%\bin;_ for Windows or _PATH=$(ANT_HOME)/bin:_ for Linux.
