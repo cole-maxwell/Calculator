@@ -1,17 +1,20 @@
 # Calculator
 ---- Program Description ----<br />
+
 Calculator.java multiplies and divides.<br />
 CalculatorTest.java tests Calculator's methods using JUnit.<br />
 
 ---- Compile & Run ----<br />
+
 **_cd_** to **_/Calculator_** and type **_ant -f build.xml_**.<br />
 
 ---- Prerequisite Steps & Environment Setup ----<br />
-* Install Ant from http://ant.apache.org/.
-* Configure your _ANT_HOME_ environment variable to reference the topmost directory of the Ant distribution.
-* Configure your _PATH_ environment variable to reference _ANT_HOME_ in a relative manner, by including _PATH=%ANT_HOME%\bin;_ for Windows or _PATH=$(ANT_HOME)/bin:_ for Linux.
-* Download the JUnit 5 JAR files from https://junit.org/junit5/.
-* Configure your _JUNIT_ environment variable to point to the directory containing those JAR files.
+
+1. Install Ant from http://ant.apache.org/.
+2. Configure your _ANT_HOME_ environment variable to reference the topmost directory of the Ant distribution.
+3. Configure your _PATH_ environment variable to reference _ANT_HOME_ in a relative manner, by including _PATH=%ANT_HOME%\bin;_ for Windows or _PATH=$(ANT_HOME)/bin:_ for Linux.
+4. Download the JUnit 5 JAR files from https://junit.org/junit5/.
+5. Configure your _JUNIT_ environment variable to point to the directory containing those JAR files.
 
 JUnit API JAR files:
 * junit-jupitar-api.jar
